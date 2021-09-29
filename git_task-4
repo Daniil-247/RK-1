@@ -1,3 +1,6 @@
+git checkout -b b1
+git checkout -b b2
+git checkout -b b3
 git checkout b1 
 git mearge feature2 b2
 git checkout b2 
