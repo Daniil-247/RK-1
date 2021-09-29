@@ -1,0 +1,4 @@
+git checkout b1 
+git mearge feature2 b2
+git checkout b2 
+git mearge feature2  b3
