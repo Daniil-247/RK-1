@@ -22,6 +22,7 @@ class BookHandler(BaseHTTPRequestHandler):
         mydom = html(
             body(
                 div(resp.content.decode(), _style="color:green; font-size:20px;"),
+                img(_src="https://github.githubassets.com/apple-touch-icon-114x114.png"),
                 h1(resp.content.decode())
             )
         )
