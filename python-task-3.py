@@ -1,16 +1,10 @@
 import json
 import random
 import requests
-
 from domonic.html import *
-
 from http.server import BaseHTTPRequestHandler
 from helpers import http_server
-
-
 # urllib3 for url parse
-
-
 class BookHandler(BaseHTTPRequestHandler):
     # Handler for the GET random number info
     def do_GET(self):
